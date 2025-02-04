@@ -1,6 +1,8 @@
+# open cv python on google open cv python and run in cmd
+ # make sure to copy the path of site packages as it will be used
 import cv2
 face_cap = cv2.CascadeClassifier("C:/Users/DELL/AppData/Local/Programs/Python/Python313/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
-
+#In cascadeclassifier Do provide your own path where you have stored your library
 video_cap = cv2.VideoCapture(0)
 
 while True : #used for infinite loop
