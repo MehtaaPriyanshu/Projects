@@ -117,7 +117,7 @@ def main_game():
             foodx = round(random.randrange(0, dis_width-snake_block) / 10.0) * 10.0
             foody = round(random.randrange(0, dis_height-snake_block) / 10.0) * 10.0
             length_snake +=1
-
+            
         clock.tick(snake_speed)
 
     pygame.quit()
